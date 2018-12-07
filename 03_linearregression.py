@@ -168,3 +168,4 @@ X1 = stat.add_constant(X_encoded)
 model = sm.OLS(y, X1)
 results = model.fit()
 print(results.summary())
+
